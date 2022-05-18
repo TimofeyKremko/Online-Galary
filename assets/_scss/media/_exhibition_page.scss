@@ -1,0 +1,251 @@
+@media (max-width: 1300px) {
+    .exhibition__info{
+        .container{
+            .dp_item[data-position="2"] {
+                transform: scale(0.8) translateX(35%) !important;
+            }
+            .dp_item[data-position="3"] {
+                transform: scale(0.6) translateX(75%) !important;
+            }
+            .dp_item[data-position="4"] {
+                transform: scale(0.4) translateX(150%) !important;
+            } 
+        }
+    }
+
+    .exhibition__info1{
+        .container{
+            .dp_item1[data-position="2"] {
+                transform: scale(0.8) translateX(35%) !important;
+            }
+            .dp_item1[data-position="3"] {
+                transform: scale(0.6) translateX(75%) !important;
+            }
+            .dp_item1[data-position="4"] {
+                transform: scale(0.4) translateX(150%) !important;
+            }
+        }
+    }
+
+    .exhibition__info2{
+        .container{
+            .dp_item2[data-position="2"] {
+                transform: scale(0.8) translateX(35%) !important;
+            }
+            .dp_item2[data-position="3"] {
+                transform: scale(0.6) translateX(75%) !important;
+            }
+            .dp_item2[data-position="4"] {
+                transform: scale(0.4) translateX(150%) !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .exhibition__info{
+        .container{
+            padding: 0 10px;
+            .header__bg{
+                display: none;
+            }
+            .exh__content{
+                margin-top:50px;
+            }
+            .back__content{
+                top:10% !important;
+            }
+            .slider__online{
+                margin-top:20px !important;
+                .dp-wrap {
+                    .db-slider{
+                        justify-content: center;
+                    }
+                    .dp_item:first-child {
+                        height: 400px;
+                        width: 500px;
+                        .img-fluid{
+                            max-width: 100%;
+                        }
+                    }
+                    .dp_item[data-position="2"] {
+                        transform: scale(0.4) translateX(0%) !important;
+                    }
+                    .dp_item[data-position="3"] {
+                        transform: scale(0.3) translateX(0%) !important;
+                    }
+                    .dp_item[data-position="4"] {
+                        transform: scale(0.2) translateX(0%) !important;
+                    }
+                }
+                .db-next{
+                    right:40% !important;
+                    top: 60% !important;
+                }
+                .db-prev{
+                    left:40% !important;
+                    top: 60% !important;
+                }
+            }
+           
+        }
+    }
+
+    .exhibition__info1{
+        .container{
+            padding: 0 10px;
+            .header__bg{
+                display: none;
+            }
+            .exh__content{
+                margin-top:70px;
+            }
+            .back__content{
+                top:10% !important;
+            }
+            .slider__online1{
+                margin-top:20px !important;
+                .dp-wrap1{
+                    .db-slider1{
+                        justify-content: center;
+                    }
+                    .dp_item1:first-child {
+                        height: 400px;
+                        width: 500px;
+                        .img-fluid{
+                            max-width: 100%;
+                        }
+                    }
+                    .dp_item1[data-position="2"] {
+                        transform: scale(0.4) translateX(0%) !important;
+                    }
+                    .dp_item1[data-position="3"] {
+                        transform: scale(0.3) translateX(0%) !important;
+                    }
+                    .dp_item1[data-position="4"] {
+                        transform: scale(0.2) translateX(0%) !important;
+                    }
+                }
+                .db-next1{
+                    right:40% !important;
+                    top: 60% !important;
+                }
+                .db-prev1{
+                    left:40% !important;
+                    top: 60% !important;
+                }
+            }
+           
+        }
+    }
+
+    .exhibition__info2{
+        .container{
+            padding: 0 10px;
+            .header__bg{
+                display: none;
+            }
+            .exh__content{
+                margin-top:70px;
+            }
+            .back__content{
+                top:10% !important;
+            }
+            .slider__online2{
+                margin-top:20px !important;
+                .dp-wrap2{
+                    .db-slider2{
+                        justify-content: center;
+                    }
+                    .dp_item2:first-child {
+                        height: 400px;
+                        width: 500px;
+                        .img-fluid{
+                            max-width: 100%;
+                        }
+                    }
+                    .dp_item2[data-position="2"] {
+                        transform: scale(0.4) translateX(0%) !important;
+                    }
+                    .dp_item2[data-position="3"] {
+                        transform: scale(0.3) translateX(0%) !important;
+                    }
+                    .dp_item2[data-position="4"] {
+                        transform: scale(0.2) translateX(0%) !important;
+                    }
+                }
+                .db-next2{
+                    right:40% !important;
+                    top: 60% !important;
+                }
+                .db-prev2{
+                    left:40% !important;
+                    top: 60% !important;
+                }
+            }
+           
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .exhibition__info{
+        .container{
+            .slider__online{
+                height: 500px !important;
+                .dp-wrap {
+                    .dp_item:first-child {
+                        height: 250px;
+                        width: 350px;
+                    }
+                }
+                .db-next, .db-prev{
+                    top:50% !important;
+                }
+            }
+           
+        }
+    }
+
+    .exhibition__info1{
+        .container{
+            .slider__online1{
+                height: 500px !important;
+                .dp-wrap1 {
+                    .dp_item1:first-child {
+                        height: 250px;
+                        width: 350px;
+                    }
+                }
+                .db-next1, .db-prev1{
+                    top:50% !important;
+                }
+            }
+           
+        }
+    }
+
+    .exhibition__info2{
+        .container{
+            .slider__online2{
+                height: 500px !important;
+                .dp-wrap2 {
+                    .dp_item2:first-child {
+                        height: 250px;
+                        width: 350px;
+                    }
+                }
+                .db-next2, .db-prev2{
+                    top:50% !important;
+                }
+            }
+           
+        }
+    }
+
+    .foot__exh{
+        .container{
+            margin-top: -100px;
+        }
+    }
+}

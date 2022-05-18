@@ -1,0 +1,75 @@
+.artists{
+    .container{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        transition:.25s;
+        
+        .header__bg {
+            position: absolute;
+            z-index: -1;
+            max-width: 100%;
+        }
+        .artists__block{
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 110px;
+            .artist__title{
+                margin-bottom: 80px;
+            }
+            .artist__slider{
+                width:100%;
+                max-width: 1440px;
+                height: 520px;
+                display:flex;
+                flex-direction:row;
+                align-items:stretch;
+                justify-content: center;
+                overflow:hidden;
+                &__item{
+                    position: relative;
+                    overflow:hidden;
+                    display: flex;
+                    align-items: center;
+                    min-width:105px;
+                    cursor: pointer;
+                    transition:.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+                    &.active {
+                        flex-grow:10000;
+                        transform:scale(1);
+                        max-width:600px;
+                        margin:0px;
+                        background-size:auto 100%;
+                        .artist__lable{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            animation: fadeIn 0.7s ease-in-out 0.5s forwards;
+                        }
+                    }
+                    .artist__lable{
+                        width: 100%;
+                        background-color: $menu_background;
+                        padding: 10px;
+                        position: absolute;
+                        display: none;
+                        opacity:0;
+                        .artist__name{
+                            color: $white_color;
+                        }
+                    }
+                }
+            }
+        }
+       
+    }
+}
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}

@@ -1,0 +1,53 @@
+.artists__section{
+    margin-top: 25px;
+    .container{
+        display: flex;
+        justify-content: center;
+        .header__bg {
+            position: absolute;
+            z-index: -1;
+            max-width: 100%;
+        }
+        .artists__block{
+            margin-top: 110px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            .artist1{
+                width: 100%;
+                margin-top: 100px;
+                padding: 50px 40px 20px 40px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                .artist1__content{
+                    &__text{
+                        width: 27%;
+                        .hero__text__25, .hero__text__35{
+                            color:#fff;
+                        }
+                        .hero__text__35{
+                            font-size: 60px;
+                            margin-bottom: 20px;
+                        }
+                        
+                    }
+                    &__img{
+                        display: flex;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        
+                        
+                        &__1{
+                            transform: scale(0.9); 
+                            transition: .3s ease-in-out;                           
+                        }
+                        &__1:hover{
+                            transform: translateY(-10px) scale(0.9); 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

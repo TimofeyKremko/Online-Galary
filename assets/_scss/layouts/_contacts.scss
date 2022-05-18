@@ -1,0 +1,76 @@
+.contact__section{
+    margin-top: 25px;
+    .container{
+        display: flex;
+        justify-content: center;
+        .header__bg {
+            position: absolute;
+            z-index: -1;
+            max-width: 100%;
+        }
+        .contact__block{
+            margin-top: 110px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            .contact__info{
+                width:100%;
+                margin-top:100px;
+                padding:0 105px;
+                display: flex;
+                gap: 50px;
+                .contact__text{
+                    width:100%;
+                    .hero__text__25{
+                        color:$title_text_color;
+                        padding: 15px 0;
+                    }
+                    .hero__text__20{
+                        padding-bottom: 10px;
+                        
+                    }
+                    .form{
+                        display: flex;
+                        flex-direction: column;
+                        margin-right: 15px;
+                        .email__form{
+                            margin: 30px 0;
+                            border: none;
+                            width: 300px;
+                            height: 40px;
+                            background-color: transparent;
+                            border-bottom: 2px solid $back_text_color; 
+                            font-family: $cormorant;
+                            font-size: 25px;
+                        }
+                        .text__form{
+                            width: 100%;
+                            height: 70px;
+                            border-bottom: 2px solid $back_text_color; 
+                            font-family: $cormorant;
+                            font-size: 25px;
+                            resize: none; 
+                            background-color: transparent;
+                        }
+                        .button__form{
+                            display: flex;
+                            align-items: center;
+                            cursor: pointer;
+                            & img {
+                                height:20px;
+                                padding-left: 10px;
+                            }
+                            & p{
+                                color: #FE493C;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+                
+                
+            }
+        }
+    }
+}

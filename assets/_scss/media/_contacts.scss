@@ -1,0 +1,17 @@
+@media (max-width: 1080px) {
+  .contact__section{
+    .container{
+        .header__bg {
+          display:none;
+        }
+        .contact__block{
+          margin-top: 50px;
+          .contact__info{
+            flex-direction: column;
+            margin-top: 50px !important;
+            padding:10px !important;
+          }
+        }
+    }
+}
+}

@@ -1,0 +1,77 @@
+.online__exhibition{
+    .container{
+        margin-top: 150px;
+        display:flex;
+        justify-content: center;
+        .header__bg{
+            position: absolute;
+            z-index: -1;
+            max-width: 100%;
+        }
+        .slider__online{
+            width:90%;
+            display:flex;
+            justify-content: center;
+            height: 700px;
+            margin: 120px auto;
+            .online__title{
+                display:none;
+            }
+            .dp-wrap {
+               
+                position: relative;
+                height: 100%;
+                width: 100%;
+                #dp-slider{
+                    display:flex;
+                    justify-content: center;
+                }
+                #dp-slider .dp_item:first-child {
+                    z-index: 10 !important;
+                    transform: rotateY(0deg) translateX(0px) !important;
+                }
+                .dp_item[data-position ="2"] {
+                    z-index: 9;
+                    transform: rotateY(0deg) translateY(20%) scale(0.8);
+                }          
+                .dp_item[data-position="3"] {
+                    z-index: 8;
+                    transform: rotateY(0deg) translateY(40%) scale(0.6);
+                } 
+                .dp_item {
+                    width: 90%;
+                    height: 500px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    border-top: none;
+                    position: absolute;
+                    transition: transform 1.5s;
+                    .img-fluid {
+                        width:345px;
+                        height: 450px;
+                        cursor: pointer;
+                    }
+                }
+            }   
+            #dp-next, #dp-prev {
+                position: absolute;
+                top: 73%;
+                right: 47%;
+                height: 33px;
+                width: 33px;
+                background-color: $white_color;
+                border-radius: 50%;
+                padding: 10px;
+                z-index: 10;
+                cursor: pointer;
+            }  
+            #dp-prev {
+                left: 47%;
+                transform: rotate(180deg);
+            }      
+        }
+    }
+}

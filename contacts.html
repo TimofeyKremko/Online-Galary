@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="menu-overlay">
+            <hr class="menu__line1">
+            <a href="exhibitions.html" class="menu-overlay__item">
+                <p class="menu__text">Выставки</p>
+                <img class="image__menu" src="./assets/img/index/menu_item.jpg">
+            </a>
+            <a href="artists.html" class="menu-overlay__item">
+                <p class="menu__text">Художники</p>
+                <img class="image__menu" src="./assets/img/index/menu_item2.png">
+            </a>
+            <a href="contacts.html" class="menu-overlay__item">
+                <p class="menu__text">Контакты</p>
+                <img class="image__menu" src="./assets/img/index/menu_item3.png">
+            </a>
+            <hr class="menu__line2">
+        </div>
+        
+        <div class="container">
+            <nav>
+                <div></div>
+                <a href="index.html"><img src="assets/img/icons/logo.svg" class="header__logo"></a>
+                <div class="menu-button">
+                    <div class="button__overlay">
+                        <img class="menu__icon" src="./assets/img/icons/menu_icon.svg" alt="">
+                    </div>
+                </div>
+               
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact__section">
+            <div class="container">
+                <img class="header__bg" src="./assets/img/contacts/title.png">
+                <div class="contact__block" style="background: url('./assets/img/contacts/back.png');">
+                    <p class="hero__text__35">Контакты</p>
+                    <div class="contact__info">
+                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9a73aa3a6f3c8a821dbe5dac591459d1afd9248136243a5b61b9e3e273b9a5e4&amp;min-width=470&amp;height=630&amp;lang=ru_RU&amp;scroll=true"></script>
+                        <div class="contact__text">
+                            <div>
+                                <p class="hero__text__25">Адрес:</p>
+                                <p class="hero__text__20">220030 г. Минск, ул. Ленина, 20</p>
+                            </div>
+                            <div>
+                                <p class="hero__text__25">Телефон:</p>
+                                <p class="hero__text__20">+375 (44) 727 31 14</p>
+                            </div>
+                            <div>
+                                <p class="hero__text__25">Электронная почта:</p>
+                                <p class="hero__text__20">onegogh@mail.com</p>
+                            </div>
+                            <div>
+                                <p class="hero__text__25">График работы:</p>
+                                <p class="hero__text__20">вторник-пятница с 11:00 до 20:00</p>
+                                <p class="hero__text__20">суббота с 11.00 до 19.00</p>
+                                <p class="hero__text__20">воскресенье с 11.00 до 18.00</p>
+                            </div>
+                            <div  class="form">
+                                <input class="email__form" type="email" value="" placeholder="Введите электронную почту">
+                                <textarea class="text__form" placeholder="Оставьте свой вопрос..." required></textarea>
+                                <div class="button__form">
+                                    <p class='hero__text__25'>Отправить</p>
+                                    <img src="./assets/img/icons/arrow.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <img class="header__bg" src="./assets/img/index/footer.png">
+            <div class="footer__content">
+                <div class="footer__first__line">
+                    <a href="index.html" class="logo__text">1 Gogh</a>
+                    <div class="logo__text__2">
+                        <a href="exhibitions.html" class="hero__text__25">Выставки</a>
+                        <a href="artists.html" class="hero__text__25">Художники</a>
+                        <a href="contacts.html" class="hero__text__25">Контакты</a>
+                    </div>
+                </div>
+                <div class="footer__second__line">
+                    <p class="hero__text__25">One Gogh Gallery</p>
+                    <p class="hero__text__20">&copy;Sakhnovskaya</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <link rel="stylesheet" href="./libs/slick/slick.css">
+    <link rel="stylesheet" href="./libs/slick/slick-theme.css">
+    <link rel="stylesheet" href="./libs/sweetAlert/sweetalert2.min.css">
+    <script src="./libs/jquery/jquery.js"></script>
+    <script src="./libs/slick/slick.min.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./libs/sweetAlert/sweetalert2.all.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+@media (max-width: 1250px) {
+    .pop-up__content{
+        width: 900px !important;
+        .header__bg2{
+            display: none;
+        }
+        .pop-up__container{
+            padding: 50px 50px 0 50px !important;
+            .hero__text__110{
+                font-size: 60px !important;
+            }
+            .pop-up__image{
+                width: 460px !important;
+                height: 530px !important;
+            }
+            .hero__text__30{
+                font-size: 25px;
+            }
+            .hero__text__35{
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .pop-up{
+        align-items: flex-start;
+        .pop-up__content{
+            width: 500px !important;
+            .header__bg2{
+                display: none;
+            }
+            .pop-up__container{
+                padding: 50px 50px 0 50px !important;
+                .pop-up__column{
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    .hero__text__110{
+                        font-size: 60px !important;
+                    }
+                    .pop-up__image{
+                        width: 340px !important;
+                        height: 430px !important;
+                        margin-right: 0px;
+                    }
+                    .hero__text__30{
+                        font-size: 25px;
+                    }
+                    .hero__text__35{
+                        font-size: 30px;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .pop-up{
+        align-items: flex-start;
+        .pop-up__content{
+            width: 350px !important;
+            .pop-up__container{
+                padding: 50px 30px 0 30px !important;
+                .pop-up__column{
+                    .hero__text__110{
+                        font-size: 50px !important;
+                    }
+                    .pop-up__image{
+                        width: 300px !important;
+                        height: 400px !important;
+                    }
+                    .close{
+                        margin-left:50%;
+                    }
+                }
+                
+            }
+        }
+    }
+}

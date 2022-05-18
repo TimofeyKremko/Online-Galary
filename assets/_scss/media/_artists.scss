@@ -1,0 +1,28 @@
+@media (max-width: 1140px) {
+    .artist__section{
+      .container{
+          padding:0px;
+          .header__bg {
+            display:none;
+          }
+          .artist__block{
+              margin-top:50px;
+            .artist__info{
+                margin-top: 50px;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap:50px;
+                padding: 0 5px;
+                background: transparent !important;
+
+            }
+            .main__slider{
+                .slick-prev{
+                    left:40%;
+                }
+            } 
+          }
+          
+      }
+  }
+}
