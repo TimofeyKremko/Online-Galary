@@ -1,6 +1,7 @@
 @media (max-width: 1300px) {
     .exhibition__info{
         .container{
+            padding: 0 35px;
             .dp_item[data-position="2"] {
                 transform: scale(0.8) translateX(35%) !important;
             }
@@ -15,6 +16,7 @@
 
     .exhibition__info1{
         .container{
+            padding: 0 35px;
             .dp_item1[data-position="2"] {
                 transform: scale(0.8) translateX(35%) !important;
             }
@@ -29,6 +31,7 @@
 
     .exhibition__info2{
         .container{
+            padding: 0 35px;
             .dp_item2[data-position="2"] {
                 transform: scale(0.8) translateX(35%) !important;
             }
@@ -45,7 +48,7 @@
 @media (max-width: 900px) {
     .exhibition__info{
         .container{
-            padding: 0 10px;
+            padding: 0 15px;
             .header__bg{
                 display: none;
             }
@@ -56,7 +59,7 @@
                 top:10% !important;
             }
             .slider__online{
-                margin-top:20px !important;
+                margin-top:70px !important;
                 .dp-wrap {
                     .db-slider{
                         justify-content: center;
@@ -93,7 +96,7 @@
 
     .exhibition__info1{
         .container{
-            padding: 0 10px;
+            padding: 0 15px;
             .header__bg{
                 display: none;
             }
@@ -104,7 +107,7 @@
                 top:10% !important;
             }
             .slider__online1{
-                margin-top:20px !important;
+                margin-top:70px !important;
                 .dp-wrap1{
                     .db-slider1{
                         justify-content: center;
@@ -141,7 +144,7 @@
 
     .exhibition__info2{
         .container{
-            padding: 0 10px;
+            padding: 0 15px;
             .header__bg{
                 display: none;
             }
@@ -152,7 +155,7 @@
                 top:10% !important;
             }
             .slider__online2{
-                margin-top:20px !important;
+                margin-top:70px !important;
                 .dp-wrap2{
                     .db-slider2{
                         justify-content: center;

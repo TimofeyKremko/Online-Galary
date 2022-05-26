@@ -125,7 +125,7 @@ a {
 
 .circle__text {
   font-size: 20px;
-  font-family: "Poppins";
+  font-family: "Cormorant";
   font-weight: 400;
   font-style: normal;
   color: #F3F3F3;
@@ -1876,6 +1876,9 @@ body {
 }
 
 @media (max-width: 700px) {
+  .header .container {
+    padding-right: 15px;
+  }
   .header .container .hero__text__30 {
     padding-left: 20px !important;
   }
@@ -1891,14 +1894,21 @@ body {
 }
 
 @media (max-width: 1440px) {
+  .none__block {
+    height: 50px;
+    width: 55px;
+  }
   .container {
     padding: 0px;
   }
 }
 
 @media (max-width: 900px) {
+  .footer .container {
+    margin-top: 0px;
+  }
   .footer .container .footer__second__line {
-    padding: 30px !important;
+    padding: 50px 0px 0px 0px !important;
   }
 }
 
@@ -1969,6 +1979,9 @@ body {
 @media (max-width: 700px) {
   .artists__section .container .artist1__content__text {
     width: 100% !important;
+  }
+  .footer .artist {
+    margin-top: 100px;
   }
 }
 
@@ -2053,7 +2066,7 @@ body {
 
 @media (max-width: 1350px) {
   .about .container .about__content {
-    padding-left: 10px;
+    padding: 0 15px;
   }
   .about .container .about__content__text {
     width: 100%;
@@ -2158,8 +2171,10 @@ body {
     display: block;
   }
   .footer .container {
-    margin-top: 70px;
     padding: 10px 10px;
+  }
+  .footer .container .header__bg {
+    display: none;
   }
 }
 
@@ -2204,6 +2219,9 @@ body {
 }
 
 @media (max-width: 1300px) {
+  .exhibition__info .container {
+    padding: 0 35px;
+  }
   .exhibition__info .container .dp_item[data-position="2"] {
     -webkit-transform: scale(0.8) translateX(35%) !important;
             transform: scale(0.8) translateX(35%) !important;
@@ -2216,6 +2234,9 @@ body {
     -webkit-transform: scale(0.4) translateX(150%) !important;
             transform: scale(0.4) translateX(150%) !important;
   }
+  .exhibition__info1 .container {
+    padding: 0 35px;
+  }
   .exhibition__info1 .container .dp_item1[data-position="2"] {
     -webkit-transform: scale(0.8) translateX(35%) !important;
             transform: scale(0.8) translateX(35%) !important;
@@ -2227,6 +2248,9 @@ body {
   .exhibition__info1 .container .dp_item1[data-position="4"] {
     -webkit-transform: scale(0.4) translateX(150%) !important;
             transform: scale(0.4) translateX(150%) !important;
+  }
+  .exhibition__info2 .container {
+    padding: 0 35px;
   }
   .exhibition__info2 .container .dp_item2[data-position="2"] {
     -webkit-transform: scale(0.8) translateX(35%) !important;
@@ -2244,7 +2268,7 @@ body {
 
 @media (max-width: 900px) {
   .exhibition__info .container {
-    padding: 0 10px;
+    padding: 0 15px;
   }
   .exhibition__info .container .header__bg {
     display: none;
@@ -2256,7 +2280,7 @@ body {
     top: 10% !important;
   }
   .exhibition__info .container .slider__online {
-    margin-top: 20px !important;
+    margin-top: 70px !important;
   }
   .exhibition__info .container .slider__online .dp-wrap .db-slider {
     -webkit-box-pack: center;
@@ -2291,7 +2315,7 @@ body {
     top: 60% !important;
   }
   .exhibition__info1 .container {
-    padding: 0 10px;
+    padding: 0 15px;
   }
   .exhibition__info1 .container .header__bg {
     display: none;
@@ -2303,7 +2327,7 @@ body {
     top: 10% !important;
   }
   .exhibition__info1 .container .slider__online1 {
-    margin-top: 20px !important;
+    margin-top: 70px !important;
   }
   .exhibition__info1 .container .slider__online1 .dp-wrap1 .db-slider1 {
     -webkit-box-pack: center;
@@ -2338,7 +2362,7 @@ body {
     top: 60% !important;
   }
   .exhibition__info2 .container {
-    padding: 0 10px;
+    padding: 0 15px;
   }
   .exhibition__info2 .container .header__bg {
     display: none;
@@ -2350,7 +2374,7 @@ body {
     top: 10% !important;
   }
   .exhibition__info2 .container .slider__online2 {
-    margin-top: 20px !important;
+    margin-top: 70px !important;
   }
   .exhibition__info2 .container .slider__online2 .dp-wrap2 .db-slider2 {
     -webkit-box-pack: center;

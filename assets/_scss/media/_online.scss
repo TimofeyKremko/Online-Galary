@@ -17,7 +17,9 @@
 
     .footer{
         .container{
-            margin-top: 70px;
+            .header__bg{
+                display: none;
+            }
             padding: 10px 10px;
         }
     }
